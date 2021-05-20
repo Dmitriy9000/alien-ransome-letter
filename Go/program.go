@@ -14,6 +14,9 @@ func main() {
 	fmt.Println(result)
 }
 
+// N - ransome letter input length
+// M - magazine input length
+// Solution Complexity: O(2N + M)
 func SolveUsingMap() bool {
 	reader := bufio.NewReader(os.Stdin) 
 
